@@ -4,8 +4,8 @@ import {
 } from "@angular/core";
 import {DialogComponent} from "./dialog.component";
 import {DialogWrapperComponent} from "./dialog-wrapper.component";
-import {Observable} from "rxjs";
 import {DialogOptions} from "./dialog.service";
+import {Observable} from "rxjs/Observable";
 
 @Component({
   selector: 'dialog-holder',

@@ -3,7 +3,8 @@ import {
 } from "@angular/core";
 import { DialogHolderComponent } from "./dialog-holder.component";
 import { DialogComponent } from "./dialog.component";
-import { Observable } from "rxjs";
+import {Observable} from "rxjs/Observable";
+
 
 export interface DialogOptions {
   index?: number;

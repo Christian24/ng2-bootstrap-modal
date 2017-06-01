@@ -1,8 +1,9 @@
-import { OnDestroy
-} from '@angular/core';
-import {Observable, Observer} from 'rxjs';
+import { OnDestroy} from '@angular/core';
+
 import {DialogWrapperComponent} from "./dialog-wrapper.component";
 import {DialogService} from "./dialog.service";
+import {Observer} from "rxjs/Observer";
+import {Observable} from "rxjs/Observable";
 
 /**
  * Abstract dialog
