@@ -62,7 +62,7 @@ var DialogHolderComponent = (function () {
 DialogHolderComponent.decorators = [
     { type: core_1.Component, args: [{
                 selector: 'dialog-holder',
-                template: '<template #element></template>',
+                templateUrl: './dialog-holder.component.html'
             },] },
 ];
 DialogHolderComponent.ctorParameters = function () { return [

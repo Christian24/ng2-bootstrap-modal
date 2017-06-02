@@ -6,11 +6,7 @@ import {DialogService} from "./dialog.service";
 
 @Component({
   selector: 'dialog-wrapper',
-  template: `
-    <div #container class="modal fade" style="display:block !important;" role="dialog">
-        <template #element></template>
-    </div>
-`
+ templateUrl: './dialog-wrapper.component.html'
 })
 export class DialogWrapperComponent {
 

@@ -9,7 +9,7 @@ import {Observable} from "rxjs/Observable";
 
 @Component({
   selector: 'dialog-holder',
-  template: '<template #element></template>',
+  templateUrl: './dialog-holder.component.html'
 })
 export class DialogHolderComponent {
 
