@@ -31,7 +31,7 @@ var DialogWrapperComponent = (function () {
 DialogWrapperComponent.decorators = [
     { type: core_1.Component, args: [{
                 selector: 'dialog-wrapper',
-                templateUrl: './dialog-wrapper.component.html'
+                template: "<div #container class=\"modal fade\" style=\"display:block !important;\" role=\"dialog\">\n     <ng-template #element></ng-template>\n </div>"
             },] },
 ];
 DialogWrapperComponent.ctorParameters = function () { return [
