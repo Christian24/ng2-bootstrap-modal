@@ -54,8 +54,10 @@ var DialogHolderComponent = (function () {
         }
     };
     DialogHolderComponent.prototype.clear = function () {
-        this.element.clear();
-        this.dialogs = [];
+        if (this.element) {
+            this.element.clear();
+            this.dialogs = [];
+        }
     };
     return DialogHolderComponent;
 }());

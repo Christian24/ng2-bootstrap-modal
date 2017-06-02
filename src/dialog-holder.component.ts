@@ -90,7 +90,9 @@ export class DialogHolderComponent {
   }
 
   clear() {
-    this.element.clear();
-    this.dialogs = [];
+    if (this.element) {
+      this.element.clear();
+      this.dialogs = [];
+    }
   }
 }
